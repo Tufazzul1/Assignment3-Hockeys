@@ -32,6 +32,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'p-colors': "#13131899"
                     }
                 }
             }
@@ -57,22 +58,22 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a> Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Pages</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a class="hover:bg-[#FF4240]"> Home</a></li>
+                            <li><a class="hover:bg-[#FF4240]">About</a></li>
+                            <li><a class="hover:bg-[#FF4240]">Pages</a></li>
+                            <li><a class="hover:bg-[#FF4240]">Blog</a></li>
+                            <li><a class="hover:bg-[#FF4240]">Contact</a></li>
                         </ul>
                     </div>
                     <a class=" font-xl lg:text-4xl font-bold">Hockey<span class="text-[#FF4240]">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal text-[#424247] px-1">
-                        <li><a> Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a class="hover:bg-[#FF4240]"> Home</a></li>
+                        <li><a class="hover:bg-[#FF4240]">About</a></li>
+                        <li><a class="hover:bg-[#FF4240]">Pages</a></li>
+                        <li><a class="hover:bg-[#FF4240]">Blog</a></li>
+                        <li><a class="hover:bg-[#FF4240]">Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end ">
@@ -86,6 +87,7 @@
         <section class="container mx-auto">
             <div class="my-3 ">
                 <div class="carousel w-full">
+
                     <!-- slide1 -->
                     <div id="slide1" class="carousel-item relative w-full">
                         <img src="Images/1.png" class="w-full" />
@@ -93,13 +95,8 @@
                             <a href="#slide4" class="btn btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-circle">❯</a>
                         </div>
-                        <div
-                            class="bg-black space-y-3 p-4  lg:bottom-[50px] lg:right-[50px] lg:p-8 rounded-lg lg:absolute lg:w-[500px] ">
-                            <h4 class="text-2xl text-white font-bold">Meet all the heroes from the field</h4>
-                            <p class="text-white">Hockey is a fast-paced team sport played on an ice rink or field,
-                                where players use sticks to maneuver a puck or ball and score goals.</p>
-                        </div>
                     </div>
+
                     <!-- slide2 -->
                     <div id="slide2" class="carousel-item relative w-full">
                         <img src="Images/4.png" class="w-full" />
@@ -107,13 +104,8 @@
                             <a href="#slide1" class="btn btn-circle">❮</a>
                             <a href="#slide3" class="btn btn-circle">❯</a>
                         </div>
-                        <div
-                            class="bg-black space-y-3 p-4  lg:bottom-[50px] lg:right-[50px] lg:p-8 rounded-lg lg:absolute lg:w-[500px] ">
-                            <h4 class="text-2xl text-white font-bold">Meet all the heroes from the field</h4>
-                            <p class="text-white">Hockey is a fast-paced team sport played on an ice rink or field,
-                                where players use sticks to maneuver a puck or ball and score goals.</p>
-                        </div>
                     </div>
+
                     <!-- slide3 -->
                     <div id="slide3" class="carousel-item relative w-full">
                         <img src="Images/1.png" class="w-full" />
@@ -121,13 +113,8 @@
                             <a href="#slide2" class="btn btn-circle">❮</a>
                             <a href="#slide4" class="btn btn-circle">❯</a>
                         </div>
-                        <div
-                            class="bg-black space-y-3 p-4  lg:bottom-[50px] lg:right-[50px] lg:p-8 rounded-lg lg:absolute lg:w-[500px] ">
-                            <h4 class="text-2xl text-white font-bold">Meet all the heroes from the field</h4>
-                            <p class="text-white">Hockey is a fast-paced team sport played on an ice rink or field,
-                                where players use sticks to maneuver a puck or ball and score goals.</p>
-                        </div>
                     </div>
+
                     <!-- slide4 -->
                     <div id="slide4" class="carousel-item relative w-full">
                         <img src="Images/4.png" class="w-full" />
@@ -135,20 +122,76 @@
                             <a href="#slide3" class="btn btn-circle">❮</a>
                             <a href="#slide1" class="btn btn-circle">❯</a>
                         </div>
-                        <div
-                            class="bg-black space-y-3 p-4  lg:bottom-[50px] lg:right-[50px] lg:p-8 rounded-lg lg:absolute lg:w-[500px] ">
-                            <h4 class="text-2xl text-white font-bold">Meet all the heroes from the field</h4>
-                            <p class="text-white">Hockey is a fast-paced team sport played on an ice rink or field,
-                                where players use sticks to maneuver a puck or ball and score goals.</p>
-                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div
+                class="bg-black space-y-3 p-4  lg:bottom-[50px] lg:right-[100px] lg:p-8 rounded-lg lg:absolute lg:w-[500px] ">
+                <h4 class="text-2xl text-white font-bold">Meet all the heroes from the field</h4>
+                <p class="text-white">Hockey is a fast-paced team sport played on an ice rink or field, where
+                    players use sticks to maneuver a puck or ball and score goals.</p>
+            </div>
+        </section>
+    </header>
+
+    <!-- main section  -->
+    <main class="container mx-auto">
+        <!-- Hockeys club section  -->
+        <section class="mt-24">
+            <div class="text-center p-4 space-y-4 lg:w-">
+                <h3 class=" text-3xl lg:text-4xl font-bold">Professional Hockeys Club</h3>
+                <p class="text-p-colors">Professional hockey clubs compete at the highest levels of the sport,
+                    participating <br>in prestigious leagues such as the National Hockey League (NHL) or other regional
+                    and international competitions.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-4 lg:mt-16 mt-12">
+                <!-- first -->
+                <div class="text-center p-4">
+                    <div class="radial-progress text-[#f00] font-extrabold" style="--value:87;" role="progressbar">87%</div>
+                    <div>
+                        <h4 class="2xl font-bold mt-6 mb-4">Prayer Facility</h4>
+                        <p class="text-p-colors">
+
+                            State-of-the-art player facilities enhance training and performance excellence.
+                        </p>
+                    </div>
+                </div>
+                  <!-- second -->
+                  <div class="text-center p-4">
+                    <div class="radial-progress text-[#90EE90] font-extrabold" style="--value:95;" role="progressbar ">95%</div>
+                    <div>
+                        <h4 class="2xl font-bold mt-6 mb-4">Experienced Coach</h4>
+                        <p class="text-p-colors">
+                            State-of-the-art player facilities enhance training and performance excellence.
+                        </p>
+                    </div>
+                </div>
+                  <!-- third -->
+                  <div class="text-center p-4">
+                    <div class="radial-progress text-[#f59e0b] font-extrabold" style="--value:90;" role="progressbar ">90%</div>
+                    <div>
+                        <h4 class="2xl font-bold mt-6 mb-4">Senior Player</h4>
+                        <p class="text-p-colors">
+                            State-of-the-art player facilities enhance training and performance excellence.
+                        </p>
+                    </div>
+                </div>
+                  <!-- fourth -->
+                  <div class="text-center p-4">
+                    <div class="radial-progress text-[#6039af] font-extrabold" style="--value:80;" role="progressbar ">80%</div>
+                    <div>
+                        <h4 class="2xl font-bold mt-6 mb-4">Prayer Facility</h4>
+                        <p class="text-p-colors">
+
+                            State-of-the-art player facilities enhance training and performance excellence.
+                        </p>
                     </div>
                 </div>
             </div>
 
-    </header>
-
-    <!-- main section  -->
-    <main>
+        </section>
 
     </main>
 
