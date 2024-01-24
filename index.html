@@ -48,35 +48,40 @@
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a class="hover:bg-[#FF4240]"> Home</a></li>
                             <li><a class="hover:bg-[#FF4240]">About</a></li>
                             <li><a class="hover:bg-[#FF4240]">Pages</a></li>
                             <li><a class="hover:bg-[#FF4240]">Blog</a></li>
                             <li><a class="hover:bg-[#FF4240]">Contact</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-2xl font-extrabold">Hockey’s</a>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl lg:text-2xl font-extrabold">Hockey’s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a class="hover:bg-[#FF4240]"> Home</a></li>
-                    <li><a class="hover:bg-[#FF4240]">About</a></li>
-                    <li><a class="hover:bg-[#FF4240]">Pages</a></li>
-                    <li><a class="hover:bg-[#FF4240]">Blog</a></li>
-                    <li><a class="hover:bg-[#FF4240]">Contact</a></li>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="hover:bg-[#FF4240]"> Home</a></li>
+                        <li><a class="hover:bg-[#FF4240]">About</a></li>
+                        <li><a class="hover:bg-[#FF4240]">Pages</a></li>
+                        <li><a class="hover:bg-[#FF4240]">Blog</a></li>
+                        <li><a class="hover:bg-[#FF4240]">Contact</a></li>
+                    </ul>
                 </div>
                 <div class="navbar-end">
                     <i class="fa-solid fa-magnifying-glass text-[#89898B] p-3"></i>
                     <a class="btn text-white bg-[#FF4240]">Get Ticket</a>
                 </div>
-                </div>
-              </div>
+            </div>
+            </div>
         </nav>
 
         <!-- banner section  -->
@@ -145,7 +150,8 @@
             <div class="grid grid-cols-1 lg:grid-cols-4 lg:mt-16 mt-12">
                 <!-- first -->
                 <div class="text-center p-4">
-                    <div class="radial-progress text-[#f00] font-extrabold" style="--value:87;" role="progressbar">87%
+                    <div class="radial-progress text-[#f00] font-extrabold" style="--value:87;" role="progressbar"><span
+                            class="text-black ">87%</span>
                     </div>
                     <div>
                         <h4 class="2xl font-bold mt-6 mb-4">Prayer Facility</h4>
@@ -158,7 +164,8 @@
                 <!-- second -->
                 <div class="text-center p-4">
                     <div class="radial-progress text-[#90EE90] font-extrabold" style="--value:95;" role="progressbar ">
-                        95%</div>
+                        <span class="text-black ">95%</span>
+                    </div>
                     <div>
                         <h4 class="2xl font-bold mt-6 mb-4">Experienced Coach</h4>
                         <p class="text-p-colors">
@@ -169,7 +176,8 @@
                 <!-- third -->
                 <div class="text-center p-4">
                     <div class="radial-progress text-[#f59e0b] font-extrabold" style="--value:90;" role="progressbar ">
-                        90%</div>
+                        <span class="text-black ">90%</span>
+                    </div>
                     <div>
                         <h4 class="2xl font-bold mt-6 mb-4">Senior Player</h4>
                         <p class="text-p-colors">
@@ -180,7 +188,8 @@
                 <!-- fourth -->
                 <div class="text-center p-4">
                     <div class="radial-progress text-[#6039af] font-extrabold" style="--value:80;" role="progressbar ">
-                        80%</div>
+                        <span class="text-black ">80%</span>
+                    </div>
                     <div>
                         <h4 class="2xl font-bold mt-6 mb-4">Prayer Facility</h4>
                         <p class="text-p-colors">
@@ -509,24 +518,21 @@
                 </div>
                 <div class="grid grid-cols-1 gap-2 w-full lg:w-[60%] lg:grid-cols-2">
 
-                    <div class=" bg-red-300">
+                    <div class="">
                         <span class="text-xl font-extrabold"> Your Name</span>
                         <input type="text" placeholder="Enter your Name" class="input input-bordered w-full " />
                     </div>
-                    <div class=""> 
+                    <div class="">
                         <span class="text-xl font-extrabold">Your Email</span>
-                        <input type="email" placeholder="Enter your email"
-                            class="input input-bordered w-full " />
+                        <input type="email" placeholder="Enter your email" class="input input-bordered w-full " />
                     </div>
                     <div class="">
                         <span class="text-xl font-extrabold"> Sbject</span>
-                        <input type="text" placeholder="Enter your Subject"
-                            class="input input-bordered w-full " />
+                        <input type="text" placeholder="Enter your Subject" class="input input-bordered w-full " />
                     </div>
                     <div class="">
                         <span class="text-xl font-extrabold">Phone Number</span>
-                        <input type="text" placeholder="Enter your Phone Number"
-                            class="input input-bordered w-full " />
+                        <input type="text" placeholder="Enter your Phone Number" class="input input-bordered w-full " />
                     </div>
                     <div class="lg:col-span-2">
                         <span class="text-xl font-extrabold">Message</span>
@@ -534,16 +540,19 @@
                             placeholder="Enter Your Message"></textarea>
                     </div>
                     <div class=" lg:col-span-2">
-                        <button class="btn text-white bg-[#FF4240] w-full">Send Message</button>
+                        <button class="btn text-white bg-[#FF4240] w-full rounded-lg">Send Message</button>
                     </div>
-                    
-                </div>
-                
-            </div>
-            <div>
-                <h3 class="text-3xl font-bold ">Social Media</h3>
-                <div>
 
+                </div>
+
+            </div>
+            <div class="text-center mt-14 space-y-4 bg-[#13131808] p-6 rounded-lg">
+                <h3 class="text-3xl font-bold ">Social Media</h3>
+                <div class="space-x-4 text-3xl">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
                 </div>
             </div>
         </section>
@@ -551,9 +560,48 @@
     </main>
 
     <!-- footer section  -->
-    <footer>
 
+    <footer class="footer p-10 lg:p-20 bg-[#131318] text-white mt-16 flex flex-col justify-center lg:flex-row lg:justify-between">
+        <aside class="justify-center">
+            <h3 class="text-2xl font-bold">Get In Touch</h3>
+            <p> For any inquiries or assistance, feel free to reach out through our <br> "Get in Touch" section; we're
+                here to help!</p>
+            <div class="">
+                <h4>
+                    <i class="fa-solid fa-envelope text-[#FF4240] p-3"></i>tufazzul@support.com <br>
+                </h4>
+               <h4> <i class="fa-solid fa-phone text-[#FF4240] p-3"></i>01795749543</h4>
+            </div>
+        </aside>
+        <div class="flex space-x-20 ">
+            <nav class="flex flex-col space-y-2">
+                <header class="footer-title">Company</header>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Leadership</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">News and Articles</a>
+                <a class="link link-hover">Legal Notice</a>
+            </nav>
+            <nav class="flex flex-col space-y-2" >
+                <header class="footer-title">Support</header>
+                <a class="link link-hover">Help Center</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Ticket Support</a>
+                <a class="link link-hover">Contuct Us</a>
+            </nav>
+        </div>
+        <div class="flex justify-center">
+            <nav class="flex flex-col space-y-2" >
+                <header class="footer-title">Service</header>
+                <a class="link link-hover">Academy</a>
+                <a class="link link-hover">Group lesson</a>
+                <a class="link link-hover">Private Lession</a>
+                <a class="link link-hover">Hokckey's for kids</a>
+                <a class="link link-hover">Hokckey's for adult</a>
+            </nav>
+        </div>
     </footer>
+
 
 </body>
 
